@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+}
+header{
+	display: flex;
+	flex-direction: column;
+}
+.header01{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border-bottom: 5px solid black;
+
+}
+
+.logo{
+	height: 200px;
+	margin-top: 25px;
+
+}
+
+.navigation{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.navigation li{
+	list-style: none;
+	margin-right: 50px;
+}
+
+.navigation li a{
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.navigation li a:hover{
+	text-decoration: none;
+	color: #9dad0c;
+}
+
+.img{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	height: 500px;
+	background-color: red;
+	margin: 0 auto 50px;
+
+
+	background-image: url(wordpress.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.img h1{
+	margin-bottom: 20px;
+}
+
+.img p{
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.img button{
+	border: 2px solid blue;
+	color: blue;
+	padding: 10px;
+	border-radius: 25px;
+}
+
+.img button:hover{
+	
+	color: white;
+	background-color: blue;
+}
